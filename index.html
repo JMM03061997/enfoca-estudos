@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#102b46">
+  <meta name="description" content="Plataforma de estudos para concursos na área de enfermagem.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Enfoca — Estudos e Concursos</title>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#" data-view="home">
+        <span class="brand-mark">E</span>
+        <span><b>enfoca</b><small>ESTUDOS & CONCURSOS</small></span>
+      </a>
+      <div class="side-label">MENU PRINCIPAL</div>
+      <nav id="side-nav">
+        <button class="nav-item active" data-view="home"><span>⌂</span> Visão geral</button>
+        <button class="nav-item" data-view="study"><span>▤</span> Plano de estudos</button>
+        <button class="nav-item" data-view="subjects"><span>▣</span> Disciplinas</button>
+        <button class="nav-item" data-view="questions"><span>✓</span> Questões</button>
+        <button class="nav-item" data-view="simulado"><span>◷</span> Simulados</button>
+        <button class="nav-item" data-view="library"><span>▧</span> Leitura & atualidades</button>
+        <button class="nav-item" data-view="performance"><span>⌁</span> Meu desempenho</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="mini-goal"><span class="mini-icon">✦</span><b>Um passo por dia.</b><p>Consistência constrói aprovação.</p></div>
+        <button class="nav-item" data-view="settings"><span>⚙</span> Dados e configurações</button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="mobile-brand" data-view="home"><span class="brand-mark">E</span><b>enfoca</b></button>
+        <div class="top-date" id="today-label"></div>
+        <div class="profile"><span class="profile-dot">E</span><span><b>Minha preparação</b><small>Foco: Enfermagem</small></span></div>
+      </header>
+      <section id="app-content" class="content" aria-live="polite"></section>
+      <footer class="footer">ENFOCA <span>•</span> Sua preparação, no seu ritmo.</footer>
+    </main>
+  </div>
+  <nav class="mobile-nav" id="mobile-nav">
+    <button class="active" data-view="home"><span>⌂</span><small>Início</small></button>
+    <button data-view="study"><span>▤</span><small>Estudar</small></button>
+    <button data-view="questions"><span>✓</span><small>Questões</small></button>
+    <button data-view="library"><span>▧</span><small>Leitura</small></button>
+    <button data-view="performance"><span>⌁</span><small>Progresso</small></button>
+  </nav>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) window.addEventListener("load", () => navigator.serviceWorker.register("./service-worker.js").catch(()=>{}));
+  </script>
+</body>
+</html>
