@@ -43,3 +43,426 @@ const SOURCES = [
   {name:"Biblioteca SciELO",url:"https://www.scielo.br/",desc:"Artigos científicos e pesquisas em saúde."},
   {name:"Fiocruz",url:"https://portal.fiocruz.br/",desc:"Pesquisa, educação, ciência e saúde pública."}
 ];
+
+// ===== SUS: leituras e questões =====
+QUESTIONS.push(...[
+ {
+  "id": 101,
+  "subject": "sus",
+  "topic": "História do SUS",
+  "q": "Qual evento é considerado o principal marco da Reforma Sanitária e influenciou o texto constitucional sobre saúde?",
+  "opts": [
+   "A criação do INAMPS, em 1977.",
+   "A 8ª Conferência Nacional de Saúde, em 1986.",
+   "A Lei Eloy Chaves, em 1923.",
+   "A criação do INPS, em 1966.",
+   "A publicação do Decreto nº 7.508, em 2011."
+  ],
+  "a": 1,
+  "why": "A 8ª Conferência, com ampla participação popular, defendeu a saúde como direito, base do texto de 1988."
+ },
+ {
+  "id": 102,
+  "subject": "sus",
+  "topic": "História do SUS",
+  "q": "A Lei Eloy Chaves, de 1923, está relacionada à criação das:",
+  "opts": [
+   "Conferências de Saúde.",
+   "Comissões Intergestores.",
+   "Redes de Atenção à Saúde.",
+   "Secretarias Municipais de Saúde.",
+   "Caixas de Aposentadoria e Pensões."
+  ],
+  "a": 4,
+  "why": "As CAPs eram organizadas por empresa e são consideradas um marco inicial da previdência no país."
+ },
+ {
+  "id": 103,
+  "subject": "sus",
+  "topic": "Constituição Federal",
+  "q": "Segundo o art. 196 da Constituição, a saúde é:",
+  "opts": [
+   "Direito apenas dos contribuintes da Previdência.",
+   "Dever exclusivo das famílias.",
+   "Direito de todos e dever do Estado.",
+   "Serviço prestado somente pela União.",
+   "Benefício condicionado à renda."
+  ],
+  "a": 2,
+  "why": "O acesso deve ser universal e igualitário, garantido por políticas sociais e econômicas."
+ },
+ {
+  "id": 104,
+  "subject": "sus",
+  "topic": "Constituição Federal",
+  "q": "NÃO é uma diretriz do SUS prevista no art. 198 da Constituição:",
+  "opts": [
+   "Centralização das decisões na União.",
+   "Descentralização, com direção única em cada esfera.",
+   "Atendimento integral.",
+   "Participação da comunidade.",
+   "Prioridade para atividades preventivas, sem prejuízo das assistenciais."
+  ],
+  "a": 0,
+  "why": "A diretriz constitucional é a descentralização, não a centralização."
+ },
+ {
+  "id": 105,
+  "subject": "sus",
+  "topic": "Constituição Federal",
+  "q": "Na participação complementar de instituições privadas no SUS, têm preferência:",
+  "opts": [
+   "As empresas de capital estrangeiro.",
+   "As instituições com maior lucro.",
+   "As operadoras de planos de saúde.",
+   "As entidades filantrópicas e as sem fins lucrativos.",
+   "As clínicas particulares mais antigas."
+  ],
+  "a": 3,
+  "why": "É a regra do art. 199, §1º."
+ },
+ {
+  "id": 106,
+  "subject": "sus",
+  "topic": "Constituição Federal",
+  "q": "Sobre a assistência à saúde e a iniciativa privada, é correto afirmar que:",
+  "opts": [
+   "A assistência é proibida à iniciativa privada.",
+   "É vedado destinar recursos públicos para auxílios ou subvenções a instituições privadas com fins lucrativos.",
+   "A participação privada substitui o SUS.",
+   "A comercialização de sangue é permitida mediante contrato.",
+   "Capitais estrangeiros podem atuar sem qualquer restrição."
+  ],
+  "a": 1,
+  "why": "Art. 199: a assistência é livre à iniciativa privada, com vedações como a do §2º."
+ },
+ {
+  "id": 107,
+  "subject": "sus",
+  "topic": "Constituição Federal",
+  "q": "É competência do SUS prevista no art. 200 da Constituição:",
+  "opts": [
+   "Conceder aposentadorias.",
+   "Fixar o salário mínimo.",
+   "Administrar o seguro-desemprego.",
+   "Legislar sobre trânsito.",
+   "Ordenar a formação de recursos humanos na área de saúde."
+  ],
+  "a": 4,
+  "why": "A ordenação da formação de recursos humanos consta entre as atribuições do art. 200."
+ },
+ {
+  "id": 108,
+  "subject": "sus",
+  "topic": "Lei nº 8.080/1990",
+  "q": "É exemplo de determinante e condicionante da saúde citado no art. 3º da Lei nº 8.080/1990:",
+  "opts": [
+   "Filiação partidária.",
+   "Contribuição previdenciária.",
+   "Moradia.",
+   "Posse de plano de saúde.",
+   "Estado civil."
+  ],
+  "a": 2,
+  "why": "A lei cita moradia, alimentação, saneamento, trabalho, renda, educação, transporte, lazer, entre outros."
+ },
+ {
+  "id": 109,
+  "subject": "sus",
+  "topic": "Lei nº 8.080/1990",
+  "q": "O conjunto de ações capazes de eliminar, diminuir ou prevenir riscos à saúde decorrentes do meio ambiente, da produção e circulação de bens e da prestação de serviços define a:",
+  "opts": [
+   "Vigilância sanitária.",
+   "Vigilância epidemiológica.",
+   "Vigilância nutricional.",
+   "Assistência farmacêutica.",
+   "Atenção psicossocial."
+  ],
+  "a": 0,
+  "why": "A chave é o controle de riscos ligados a bens, serviços e ambiente."
+ },
+ {
+  "id": 110,
+  "subject": "sus",
+  "topic": "Lei nº 8.080/1990",
+  "q": "Conhecer e detectar mudanças nos fatores determinantes da saúde, para recomendar medidas de prevenção e controle de doenças, é próprio da:",
+  "opts": [
+   "Vigilância sanitária.",
+   "Saúde suplementar.",
+   "Assistência terapêutica.",
+   "Vigilância epidemiológica.",
+   "Auditoria contábil."
+  ],
+  "a": 3,
+  "why": "A vigilância epidemiológica acompanha doenças e agravos e orienta medidas de controle."
+ },
+ {
+  "id": 111,
+  "subject": "sus",
+  "topic": "Lei nº 8.080/1990",
+  "q": "Priorizar ações e alocar recursos com base no perfil de adoecimento da população corresponde ao princípio da:",
+  "opts": [
+   "Preservação da autonomia.",
+   "Utilização da epidemiologia.",
+   "Direito à informação.",
+   "Participação da comunidade.",
+   "Direção única."
+  ],
+  "a": 1,
+  "why": "O art. 7º prevê o uso da epidemiologia para estabelecer prioridades e orientar a programação."
+ },
+ {
+  "id": 112,
+  "subject": "sus",
+  "topic": "Lei nº 8.080/1990",
+  "q": "Uma paciente é esclarecida sobre as opções e decide se aceita um procedimento. Isso se relaciona ao princípio da:",
+  "opts": [
+   "Hierarquização.",
+   "Regionalização.",
+   "Descentralização.",
+   "Conjugação de recursos.",
+   "Preservação da autonomia."
+  ],
+  "a": 4,
+  "why": "A lei assegura a autonomia das pessoas na defesa de sua integridade física e moral."
+ },
+ {
+  "id": 113,
+  "subject": "sus",
+  "topic": "Lei nº 8.080/1990",
+  "q": "No âmbito dos Municípios, a direção única do SUS é exercida:",
+  "opts": [
+   "Pelo Ministério da Saúde.",
+   "Pela Secretaria Estadual de Saúde.",
+   "Pela Secretaria de Saúde ou órgão equivalente.",
+   "Pelo Conselho Federal de Enfermagem.",
+   "Pela Câmara de Vereadores."
+  ],
+  "a": 2,
+  "why": "Art. 9º: cada esfera tem direção única."
+ },
+ {
+  "id": 114,
+  "subject": "sus",
+  "topic": "Lei nº 8.080/1990",
+  "q": "Executar a vigilância sanitária de portos, aeroportos e fronteiras compete originalmente à direção:",
+  "opts": [
+   "Nacional do SUS.",
+   "Municipal do SUS.",
+   "Regional privada.",
+   "Dos Conselhos locais.",
+   "Das unidades básicas."
+  ],
+  "a": 0,
+  "why": "É competência da direção nacional, que pode ter a execução complementada por Estados e Municípios."
+ },
+ {
+  "id": 115,
+  "subject": "sus",
+  "topic": "Lei nº 8.142/1990",
+  "q": "Com que periodicidade se reúne a Conferência de Saúde?",
+  "opts": [
+   "Todos os anos.",
+   "A cada dois anos.",
+   "A cada cinco anos.",
+   "A cada quatro anos.",
+   "A cada oito anos."
+  ],
+  "a": 3,
+  "why": "Art. 1º, §1º."
+ },
+ {
+  "id": 116,
+  "subject": "sus",
+  "topic": "Lei nº 8.142/1990",
+  "q": "O Conselho de Saúde tem caráter:",
+  "opts": [
+   "Temporário e consultivo.",
+   "Permanente e deliberativo.",
+   "Permanente e apenas consultivo.",
+   "Eventual e deliberativo.",
+   "Temporário e executivo."
+  ],
+  "a": 1,
+  "why": "Ele formula estratégias e controla a execução da política de saúde."
+ },
+ {
+  "id": 117,
+  "subject": "sus",
+  "topic": "Lei nº 8.142/1990",
+  "q": "Em um Conselho de Saúde com 16 membros, quantos devem representar os usuários?",
+  "opts": [
+   "4",
+   "5",
+   "10",
+   "12",
+   "8"
+  ],
+  "a": 4,
+  "why": "A representação dos usuários é paritária: metade do total."
+ },
+ {
+  "id": 118,
+  "subject": "sus",
+  "topic": "Lei nº 8.142/1990",
+  "q": "Dos recursos de que trata a Lei nº 8.142/1990 para cobertura das ações de saúde por Estados e Municípios, quanto, no mínimo, se destina aos Municípios?",
+  "opts": [
+   "30%.",
+   "40%.",
+   "70%.",
+   "50%.",
+   "90%."
+  ],
+  "a": 2,
+  "why": "Art. 3º, §2º: pelo menos 70% aos Municípios, e o restante aos Estados."
+ },
+ {
+  "id": 119,
+  "subject": "sus",
+  "topic": "Lei nº 8.142/1990",
+  "q": "NÃO está entre os requisitos para o Município receber os recursos, segundo o art. 4º da Lei nº 8.142/1990:",
+  "opts": [
+   "Possuir hospital universitário próprio.",
+   "Contar com Fundo de Saúde.",
+   "Contar com plano de saúde.",
+   "Ter Conselho de Saúde paritário.",
+   "Apresentar relatórios de gestão."
+  ],
+  "a": 0,
+  "why": "A lei não exige hospital próprio."
+ },
+ {
+  "id": 120,
+  "subject": "sus",
+  "topic": "Decreto nº 7.508/2011",
+  "q": "É Porta de Entrada do SUS, segundo o Decreto nº 7.508/2011:",
+  "opts": [
+   "A atenção hospitalar especializada.",
+   "A cirurgia eletiva.",
+   "A terapia intensiva.",
+   "A atenção psicossocial.",
+   "O transplante de órgãos."
+  ],
+  "a": 3,
+  "why": "As portas são: atenção primária, urgência e emergência, psicossocial e especiais de acesso aberto."
+ },
+ {
+  "id": 121,
+  "subject": "sus",
+  "topic": "Decreto nº 7.508/2011",
+  "q": "Para ser instituída, uma Região de Saúde deve conter, no mínimo:",
+  "opts": [
+   "Apenas atenção primária e vigilância em saúde.",
+   "Atenção primária, urgência e emergência, atenção psicossocial, ambulatorial especializada e hospitalar, e vigilância em saúde.",
+   "Um hospital universitário e um laboratório central.",
+   "Somente urgência e atenção hospitalar.",
+   "Atenção primária e transplantes."
+  ],
+  "a": 1,
+  "why": "É o conteúdo mínimo do art. 5º."
+ },
+ {
+  "id": 122,
+  "subject": "sus",
+  "topic": "Decreto nº 7.508/2011",
+  "q": "A relação que compreende todas as ações e serviços que o SUS oferece para a integralidade da assistência é a:",
+  "opts": [
+   "RENAME.",
+   "COAP.",
+   "CIT.",
+   "CIR.",
+   "RENASES."
+  ],
+  "a": 4,
+  "why": "RENASES trata de ações e serviços; RENAME trata de medicamentos."
+ },
+ {
+  "id": 123,
+  "subject": "sus",
+  "topic": "Decreto nº 7.508/2011",
+  "q": "A RENAME é atualizada a cada:",
+  "opts": [
+   "Seis meses.",
+   "Um ano.",
+   "Dois anos.",
+   "Quatro anos.",
+   "Cinco anos."
+  ],
+  "a": 2,
+  "why": "O Ministério da Saúde publica as atualizações a cada dois anos."
+ },
+ {
+  "id": 124,
+  "subject": "sus",
+  "topic": "Decreto nº 7.508/2011",
+  "q": "O acordo de colaboração firmado entre entes federativos para organizar a rede de atenção é o:",
+  "opts": [
+   "Contrato Organizativo da Ação Pública da Saúde (COAP).",
+   "Mapa da Saúde.",
+   "Protocolo Clínico e Diretriz Terapêutica.",
+   "Plano de Carreira, Cargos e Salários.",
+   "Formulário Terapêutico Nacional."
+  ],
+  "a": 0,
+  "why": "O COAP define responsabilidades, metas, indicadores e recursos."
+ },
+ {
+  "id": 125,
+  "subject": "sus",
+  "topic": "Decreto nº 7.508/2011",
+  "q": "A comissão que pactua aspectos da gestão do SUS no âmbito do Estado é a:",
+  "opts": [
+   "CIT.",
+   "CIR.",
+   "CNS.",
+   "CIB.",
+   "RENASES."
+  ],
+  "a": 3,
+  "why": "CIT: União; CIB: Estado; CIR: região."
+ }
+]);
+READINGS.push(...[
+ {
+  "id": "sus-historia",
+  "cat": "SUS",
+  "title": "SUS: da Reforma Sanitária à criação do sistema",
+  "desc": "Como era a assistência antes de 1988 e o que mudou.",
+  "time": "",
+  "body": "<h2>Antes do SUS</h2><p>A assistência médica pública era ligada à Previdência: em regra, atendia quem contribuía. Quem estava fora do mercado formal dependia de instituições filantrópicas ou de ações pontuais.</p><ul><li><b>1923, Lei Eloy Chaves:</b> Caixas de Aposentadoria e Pensões (CAPs), organizadas por empresa.</li><li><b>Anos 1930:</b> Institutos de Aposentadoria e Pensões (IAPs), por categoria profissional.</li><li><b>1966:</b> unificação dos institutos no INPS.</li><li><b>1977:</b> criação do INAMPS, responsável pela assistência médica previdenciária.</li></ul><h3>Reforma Sanitária</h3><p>Movimento de profissionais, pesquisadores, estudantes e sociedade civil que, a partir dos anos 1970, defendeu a saúde como direito e um sistema público e universal.</p><p>Seu grande marco foi a <b>8ª Conferência Nacional de Saúde (1986)</b>, com ampla participação popular. Suas propostas influenciaram a Constituição.</p><h3>Marcos legais</h3><ul><li><b>1988:</b> Constituição Federal, arts. 196 a 200.</li><li><b>1990:</b> Lei nº 8.080 (organização e funcionamento) e Lei nº 8.142 (participação da comunidade e repasses).</li><li><b>2011:</b> Decreto nº 7.508 (regulamenta a Lei nº 8.080).</li><li><b>2012:</b> Lei Complementar nº 141 (valores mínimos aplicados em saúde).</li></ul><h3>Para a prova</h3><p>Não confunda: antes, o acesso dependia em grande parte da contribuição previdenciária; com o SUS, a saúde é <b>direito de todos</b>.</p>"
+ },
+ {
+  "id": "sus-cf",
+  "cat": "SUS",
+  "title": "Constituição Federal: arts. 196 a 200",
+  "desc": "A base constitucional da saúde, artigo por artigo.",
+  "time": "",
+  "body": "<h2>Saúde na Constituição</h2><h3>Art. 196: direito de todos</h3><p>A saúde é direito de todos e dever do Estado, garantido por políticas sociais e econômicas que reduzam o risco de doença e de outros agravos, com acesso universal e igualitário às ações de <b>promoção, proteção e recuperação</b>.</p><h3>Art. 197: relevância pública</h3><p>As ações e serviços de saúde são de relevância pública. O Poder Público regulamenta, fiscaliza e controla. A execução pode ser direta ou por terceiros, inclusive pessoas físicas ou jurídicas de direito privado.</p><h3>Art. 198: o sistema único</h3><p>Rede regionalizada e hierarquizada, com três diretrizes:</p><ul><li>Descentralização, com direção única em cada esfera de governo.</li><li>Atendimento integral, com prioridade para as atividades preventivas, sem prejuízo dos serviços assistenciais.</li><li>Participação da comunidade.</li></ul><p>O financiamento vem do orçamento da seguridade social, da União, dos Estados, do Distrito Federal e dos Municípios, além de outras fontes. A União deve aplicar no mínimo 15% da receita corrente líquida. A Emenda nº 124/2022 incluiu no art. 198 a previsão de piso salarial nacional da enfermagem.</p><h3>Art. 199: iniciativa privada</h3><ul><li>A assistência à saúde é livre à iniciativa privada.</li><li>Participação no SUS é <b>complementar</b>, por contrato de direito público ou convênio, com preferência para entidades filantrópicas e sem fins lucrativos.</li><li>É vedado destinar recursos públicos para auxílios ou subvenções a instituições privadas com fins lucrativos.</li><li>É vedada a participação de empresas ou capitais estrangeiros na assistência, salvo nos casos previstos em lei.</li><li>É vedado todo tipo de comercialização de órgãos, tecidos, sangue e derivados.</li></ul><h3>Art. 200: competências do SUS</h3><ul><li>Controlar e fiscalizar produtos e substâncias de interesse para a saúde e participar da produção de insumos.</li><li>Executar vigilância sanitária, epidemiológica e saúde do trabalhador.</li><li>Ordenar a formação de recursos humanos na saúde.</li><li>Participar da política e das ações de saneamento básico.</li><li>Incrementar o desenvolvimento científico, tecnológico e a inovação.</li><li>Fiscalizar alimentos, bebidas e águas para consumo humano.</li><li>Participar do controle de substâncias psicoativas, tóxicas e radioativas.</li><li>Colaborar na proteção do meio ambiente, inclusive o do trabalho.</li></ul>"
+ },
+ {
+  "id": "lei-8080",
+  "cat": "SUS",
+  "title": "Lei nº 8.080/1990: o essencial",
+  "desc": "Conceitos, princípios, direção e competências.",
+  "time": "",
+  "body": "<h2>Lei Orgânica da Saúde</h2><p>Trata das condições para promoção, proteção e recuperação da saúde e da organização e funcionamento dos serviços.</p><h3>Conceitos</h3><ul><li>A saúde é direito fundamental. O dever do Estado <b>não exclui</b> o das pessoas, da família, das empresas e da sociedade.</li><li><b>Determinantes e condicionantes</b> (art. 3º): alimentação, moradia, saneamento básico, meio ambiente, trabalho, renda, educação, atividade física, transporte, lazer e acesso a bens e serviços essenciais.</li><li>O SUS é o conjunto de ações e serviços prestados por órgãos e instituições públicas federais, estaduais e municipais. A iniciativa privada participa em caráter complementar.</li></ul><h3>Campo de atuação (art. 6º)</h3><p>Inclui vigilância sanitária, vigilância epidemiológica, saúde do trabalhador, assistência terapêutica integral (inclusive farmacêutica) e saúde bucal, entre outras.</p><ul><li><b>Vigilância sanitária:</b> ações para eliminar, diminuir ou prevenir riscos à saúde ligados ao meio ambiente, à produção e circulação de bens e à prestação de serviços.</li><li><b>Vigilância epidemiológica:</b> ações para conhecer, detectar ou prevenir mudanças nos fatores determinantes e condicionantes, recomendando medidas de prevenção e controle de doenças e agravos.</li><li><b>Saúde do trabalhador:</b> promoção, proteção, recuperação e reabilitação da saúde de quem é exposto aos riscos do trabalho.</li></ul><h3>Principais princípios (art. 7º)</h3><ul><li>Universalidade de acesso em todos os níveis.</li><li>Integralidade da assistência.</li><li>Preservação da autonomia das pessoas.</li><li>Igualdade, sem preconceitos ou privilégios.</li><li>Direito à informação.</li><li>Uso da epidemiologia para definir prioridades e alocar recursos.</li><li>Participação da comunidade.</li><li>Descentralização, com ênfase nos municípios, regionalização e hierarquização.</li><li>Capacidade de resolução em todos os níveis.</li><li>Atendimento humanizado.</li></ul><h3>Direção única (art. 9º)</h3><ul><li>União: Ministério da Saúde.</li><li>Estados e Distrito Federal: Secretaria de Saúde ou órgão equivalente.</li><li>Municípios: Secretaria de Saúde ou órgão equivalente.</li></ul><h3>Quem faz o quê (arts. 16 a 19)</h3><ul><li><b>Nacional:</b> formula políticas e normas, coordena redes de alta complexidade e vigilâncias, controla portos, aeroportos e fronteiras.</li><li><b>Estadual:</b> promove a descentralização para os municípios, dá apoio técnico e financeiro e atua de forma complementar.</li><li><b>Municipal:</b> planeja, organiza, executa e avalia os serviços locais.</li><li><b>Distrito Federal:</b> acumula as competências de Estado e Município.</li></ul>"
+ },
+ {
+  "id": "lei-8142",
+  "cat": "SUS",
+  "title": "Lei nº 8.142/1990: participação social e repasses",
+  "desc": "Conferências, Conselhos e requisitos para receber recursos.",
+  "time": "",
+  "body": "<h2>Controle social no SUS</h2><p>Em cada esfera de governo há duas instâncias colegiadas: a <b>Conferência</b> e o <b>Conselho de Saúde</b>.</p><h3>Conferência de Saúde</h3><ul><li>Reúne-se a cada <b>4 anos</b>.</li><li>Tem representação de vários segmentos sociais.</li><li>Avalia a situação de saúde e propõe diretrizes para a política de saúde.</li><li>É convocada pelo Poder Executivo ou, extraordinariamente, por ele ou pelo Conselho.</li></ul><h3>Conselho de Saúde</h3><ul><li>Caráter <b>permanente e deliberativo</b>.</li><li>Composto por representantes do governo, prestadores de serviço, profissionais de saúde e usuários.</li><li>Atua na formulação de estratégias e no controle da execução da política de saúde, inclusive nos aspectos econômicos e financeiros.</li><li>Decisões homologadas pelo chefe do Poder Executivo.</li></ul><p>A representação dos <b>usuários é paritária</b> em relação ao conjunto dos demais segmentos: 50% usuários e 50% os outros somados.</p><h3>Repasses</h3><p>Os recursos para Estados e Municípios são transferidos de forma regular e automática. Pelo menos <b>70% vão para os Municípios</b>. Municípios podem formar consórcios.</p><h3>Requisitos para receber (art. 4º)</h3><ul><li>Fundo de Saúde.</li><li>Conselho de Saúde com composição paritária.</li><li>Plano de saúde.</li><li>Relatórios de gestão.</li><li>Contrapartida de recursos no orçamento.</li><li>Comissão de elaboração do Plano de Carreira, Cargos e Salários.</li></ul><p>Se os requisitos não forem atendidos, os recursos passam a ser administrados pelo Estado ou pela União, conforme o caso.</p>"
+ },
+ {
+  "id": "dec-7508",
+  "cat": "SUS",
+  "title": "Decreto nº 7.508/2011: regiões, redes e acesso",
+  "desc": "Os conceitos que mais geram confusão, organizados.",
+  "time": "",
+  "body": "<h2>Regulamentação da Lei nº 8.080</h2><h3>Conceitos</h3><ul><li><b>Região de Saúde:</b> espaço geográfico contínuo formado por agrupamento de municípios limítrofes, para integrar o planejamento e a execução das ações.</li><li><b>Portas de Entrada:</b> serviços de atendimento inicial.</li><li><b>Rede de Atenção à Saúde:</b> ações e serviços articulados em níveis crescentes de complexidade.</li><li><b>Mapa da Saúde:</b> descrição geográfica da distribuição de recursos humanos e de ações e serviços, públicos e privados.</li><li><b>COAP:</b> Contrato Organizativo da Ação Pública da Saúde, acordo de colaboração entre os entes.</li></ul><h3>Mínimo para existir uma Região de Saúde</h3><ul><li>Atenção primária.</li><li>Urgência e emergência.</li><li>Atenção psicossocial.</li><li>Atenção ambulatorial especializada e hospitalar.</li><li>Vigilância em saúde.</li></ul><h3>Portas de Entrada (art. 9º)</h3><ul><li>Atenção primária.</li><li>Urgência e emergência.</li><li>Atenção psicossocial.</li><li>Especiais de acesso aberto.</li></ul><p><b>Atenção:</b> atenção hospitalar especializada não é porta de entrada; o acesso a ela é referenciado. A atenção primária ordena o acesso, com base na gravidade do risco e na ordem cronológica.</p><h3>Listas nacionais</h3><ul><li><b>RENASES:</b> ações e serviços oferecidos pelo SUS.</li><li><b>RENAME:</b> medicamentos selecionados e padronizados.</li><li>Ambas são atualizadas a cada <b>2 anos</b>.</li></ul><h3>Acesso a medicamentos (art. 28)</h3><p>Pressupõe, cumulativamente: assistência por serviços do SUS; prescrição por profissional no exercício de suas funções no SUS; conformidade com a RENAME e os protocolos clínicos; e dispensação em unidades indicadas pela direção do SUS.</p><h3>Comissões Intergestores</h3><ul><li><b>CIT:</b> Tripartite, no âmbito da União.</li><li><b>CIB:</b> Bipartite, no âmbito do Estado.</li><li><b>CIR:</b> Regional, vinculada à CIB.</li></ul>"
+ }
+]);
+// Tempo de leitura calculado pelo tamanho do texto (cerca de 180 palavras por minuto)
+READINGS.forEach(r=>{r.time=Math.max(1,Math.ceil(r.body.replace(/<[^>]+>/g," ").trim().split(/\s+/).length/180))+" min"});
