@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#102b46">
+  <meta name="theme-color" content="#10373b">
   <meta name="description" content="Plataforma de estudos para concursos na área de enfermagem.">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
   <link rel="stylesheet" href="style.css">
   <title>Enfoca — Estudos e Concursos</title>
 </head>
@@ -19,17 +20,17 @@
       </a>
       <div class="side-label">MENU PRINCIPAL</div>
       <nav id="side-nav">
-        <button class="nav-item active" data-view="home"><span>⌂</span> Visão geral</button>
-        <button class="nav-item" data-view="study"><span>▤</span> Plano de estudos</button>
-        <button class="nav-item" data-view="subjects"><span>▣</span> Disciplinas</button>
-        <button class="nav-item" data-view="questions"><span>✓</span> Questões</button>
-        <button class="nav-item" data-view="simulado"><span>◷</span> Simulados</button>
-        <button class="nav-item" data-view="library"><span>▧</span> Leitura & atualidades</button>
-        <button class="nav-item" data-view="performance"><span>⌁</span> Meu desempenho</button>
+        <button class="nav-item active" data-view="home"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11l8-7 8 7"/><path d="M6 10v10h12V10"/></svg> Visão geral</button>
+        <button class="nav-item" data-view="study"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="3"/><path d="M4 10h16M9 3v4M15 3v4"/></svg> Plano de estudos</button>
+        <button class="nav-item" data-view="subjects"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="7" height="7" rx="2"/><rect x="13" y="4" width="7" height="7" rx="2"/><rect x="4" y="13" width="7" height="7" rx="2"/><rect x="13" y="13" width="7" height="7" rx="2"/></svg> Disciplinas</button>
+        <button class="nav-item" data-view="questions"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l3 3 5-6"/></svg> Questões</button>
+        <button class="nav-item" data-view="simulado"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 2h6"/></svg> Simulados</button>
+        <button class="nav-item" data-view="library"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6c-2-1.500-5-2-8-1.500v14c3-.500 6 0 8 1.500 2-1.500 5-2 8-1.500v-14c-3-.500-6 0-8 1.500z"/><path d="M12 6v14"/></svg> Leituras</button>
+        <button class="nav-item" data-view="performance"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20v-7M12 20V5M19 20v-11"/></svg> Meu desempenho</button>
       </nav>
       <div class="sidebar-bottom">
         <div class="mini-goal"><span class="mini-icon">✦</span><b>Um passo por dia.</b><p>Consistência constrói aprovação.</p></div>
-        <button class="nav-item" data-view="settings"><span>⚙</span> Dados e configurações</button>
+        <button class="nav-item" data-view="settings"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h10M18 8h2M4 16h4M12 16h8"/><circle cx="16" cy="8" r="2"/><circle cx="10" cy="16" r="2"/></svg> Dados e configurações</button>
       </div>
     </aside>
 
@@ -44,11 +45,11 @@
     </main>
   </div>
   <nav class="mobile-nav" id="mobile-nav">
-    <button class="active" data-view="home"><span>⌂</span><small>Início</small></button>
-    <button data-view="study"><span>▤</span><small>Estudar</small></button>
-    <button data-view="questions"><span>✓</span><small>Questões</small></button>
-    <button data-view="library"><span>▧</span><small>Leitura</small></button>
-    <button data-view="performance"><span>⌁</span><small>Progresso</small></button>
+    <button class="active" data-view="home"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11l8-7 8 7"/><path d="M6 10v10h12V10"/></svg><small>Início</small></button>
+    <button data-view="study"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="3"/><path d="M4 10h16M9 3v4M15 3v4"/></svg><small>Estudar</small></button>
+    <button data-view="questions"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l3 3 5-6"/></svg><small>Questões</small></button>
+    <button data-view="library"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6c-2-1.500-5-2-8-1.500v14c3-.500 6 0 8 1.500 2-1.500 5-2 8-1.500v-14c-3-.500-6 0-8 1.500z"/><path d="M12 6v14"/></svg><small>Leitura</small></button>
+    <button data-view="performance"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20v-7M12 20V5M19 20v-11"/></svg><small>Progresso</small></button>
   </nav>
   <script src="data.js"></script>
   <script src="app.js"></script>
